@@ -31,8 +31,8 @@ const NewsArticles = () => {
 
  
   return (
-    <div className="container my-5">
-      <h1 className="text-center mb-4">LATEST ARTICLES</h1>
+    <div className="container my-5 bg-success bg-opacity-25">
+      <h1 className="text-center mb-4">TRENDING ARTICLES</h1>
       <div className="row">
         {articles.map((article, index) => (
           <div key={index} className="col-md-3 mb-2">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-white text-light py-5">
+    <div className=" bg-success bg-opacity-25 text-light py-5">
       <div className="container">
         <div className="row">
       
@@ -36,7 +36,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text text-decoration-none hover-text-light">
+                <Link to="/about" className="text text-decoration-none hover-text-light">
                   Contact
                 </Link>
               </li>
@@ -47,7 +47,7 @@ const Footer = () => {
             <h5 className="fw-bold mb-3 text-dark">Contact Us</h5>
             <p className="text-muted">Kakkanad, kochin, india</p>
             <p className="text-muted">Email: journal@gmail.com</p>
-            <p className="text-muted">Phone: +91 934 567 890</p>
+            <p className="text-muted">Phone: +918301017309</p>
           </div>
         </div>
 
