@@ -61,12 +61,12 @@ const Home = () => {
           Stay informed with the latest headlines, in-depth analysis, and breaking news.
         </p>
         <p className="text-muted fst-italic">Stay informed, stay ahead.</p>
-        <Link to={"/News"}>
+        <Link to={"/about"}>
           <Button
             className="bg-warning border-0 text-dark py-2 px-4 rounded-pill fw-semibold shadow d-flex align-items-center gap-2"
             style={{ width: "fit-content" }}
           >
-            EXPLORE OUR ARTICLES <i className="text-danger bi-arrow-right fs-5"></i>
+            MORE ABOUT WE <i className="text-danger bi-arrow-right fs-5"></i>
           </Button>
         </Link>
       </div>
