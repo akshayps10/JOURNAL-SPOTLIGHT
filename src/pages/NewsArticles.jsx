@@ -9,7 +9,7 @@ const NewsArticles = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        // Updated: Added headers for better compatibility with API requirements
+       
         const response = await axios.get(
           "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=632eb66242334e5d85d160665dae3c67",
           {
@@ -23,7 +23,7 @@ const NewsArticles = () => {
         setArticles(response.data.articles);
         setLoading(false);
       } catch (err) {
-        // Updated: Display a more user-friendly error message
+       
         setError(err.response?.data?.message || "Failed to fetch articles");
         setLoading(false);
       }
